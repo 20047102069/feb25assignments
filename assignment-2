@@ -1,0 +1,23 @@
+n=int(input('enter n:'))
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+c=0
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        c=c+1
+print(t)
+print(c)
+
+OUTPUT:
+enter n:5
+8
+-9
+4
+8
+0
+[8, -9, 4, 8]
+4
