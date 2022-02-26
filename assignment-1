@@ -1,0 +1,22 @@
+n=int(input('enter n:'))
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n):
+    if l[i]>0:
+        t.append(l[i])
+for i in range(n):
+    if l[i]<0:
+        t.append(l[i])
+print(t)
+    
+    OUTPUT:
+    enter n:5
+    2
+    9
+    -5
+    -8
+    4
+    [2, 9, 4, -5, -8]
